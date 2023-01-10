@@ -1,0 +1,887 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(10, 6, 6);
+}
+
+a:hover {
+    color: mediumorchid;
+}
+
+
+.secOne {
+    height: 170vh;
+    background: url(imeges/sec_1.png);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+section:nth-child(1) header {
+    height: 80px;
+    line-height: 80px;
+    padding: 0 40px;
+}
+
+section:nth-child(1) header .header_content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section:nth-child(1) header .header_content .image {
+    position: relative;
+    width: 180px;
+    height: 50px;
+}
+
+section:nth-child(1) header .header_content .image img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+section:nth-child(1) header .header_content ul {
+    display: flex;
+    list-style: none;
+}
+
+section:nth-child(1) header .header_content ul li {
+    padding: 0 20px;
+}
+
+section:nth-child(1) header .header_content ul li:nth-last-child(1) button {
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: linear-gradient(45deg, #6362D7, #FF8FE2);
+}
+
+section:nth-child(1) header .header_content ul li:nth-last-child(1) button a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+section:nth-child(1) header .header_content ul li:nth-last-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section:nth-child(1) header .header_content ul li:nth-last-child(2) .search {
+    background-color: rgb(113, 4, 255);
+    background-color: #eee;
+    border: 1px solid #999;
+    width: 180px;
+    height: 30px;
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+}
+
+section:nth-child(1) header .header_content ul li:nth-last-child(2) .search i {
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+section:nth-child(1) header .header_content ul li:nth-last-child(2) .search input {
+    width: 140px;
+    height: 30px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+
+.secOne main {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+}
+
+.secOne main article {
+    width: 700px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+
+.secOne main article .pag {
+    font-size: 40px;
+}
+
+.secOne main article .p2 {
+    font-size: 20px;
+}
+
+.secOne main article .btn a {
+    margin: 0 40px;
+    padding: 12px 19px;
+    background-color: rgb(0, 209, 209);
+    border-radius: 20px;
+}
+
+.back {
+    position: fixed;
+    top: 500px;
+    height: 40px;
+    right: 40px;
+    background-color: inherit;
+    opacity: .8;
+}
+
+.secTwo {
+    margin-top: 99px;
+    width: 100%;
+    height: 566px;
+    position: relative;
+    padding: 0 100px;
+}
+
+.secTwo .s2 {
+    width: 1166px;
+    height: 100%;
+    display: flex;
+}
+
+.secTwo .s2 article {
+    width: 510px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.secTwo .s2 article div:nth-child(1) {
+    font-size: 44px;
+}
+
+.secTwo .s2 article div:nth-child(2),
+.secTwo .s2 article div:nth-child(3) {
+    font-size: 15px;
+}
+
+.secTwo .s2 article div:nth-child(4) {
+    width: 150px;
+    height: 44px;
+    background: linear-gradient(45deg, #6362D7, #FF8FE2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+}
+
+.secTwo .s2 article div:nth-child(4) a {
+
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+.secThree {
+    width: 100%;
+    height: 950px;
+    position: relative;
+    padding: 0 100px;
+}
+
+.secThree article {
+    width: 1166px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.secThree article .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 33px;
+}
+
+.secThree article .bottom .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    grid-template-areas:
+        "p1 p1 p2 p3"
+        "p1 p1 p4 p5"
+        "p6 p7 p8 p8";
+}
+
+.grid-photo1 {
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.grid-photo8 {
+    grid-column: 3/5;
+}
+
+.secThree article .bottom .grid-container .grid-photo1 {
+    position: relative;
+}
+
+.secThree article .bottom .grid-container .grid-photo1 div {
+    position: absolute;
+    left: 60px;
+    bottom: 80px;
+    color: white;
+}
+
+
+.secFour {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    margin-top: 99px;
+    padding: 0 100px;
+}
+
+.secFour section {
+    width: 1166px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.secFour section .top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 180px;
+    font-size: 44px;
+}
+
+.secFour section .middle {
+    width: 100%;
+    height: 523px;
+
+}
+
+.secFour section .middle .ddd {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secFour section .middle .ddd .d1,
+.secFour section .middle .ddd .d2,
+.secFour section .middle .ddd .d3 {
+    width: 368px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 10px 22px #777;
+}
+
+.secFour section .middle .ddd div .image {
+    width: 100%;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secFour section .middle .ddd div article {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.secFour section .middle .ddd div article h1 {
+    font-size: 28px;
+}
+
+.secFour section .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.secFour section .bottom button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.secFour section .bottom button a {
+    margin: 0 40px;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 17px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: white;
+    box-shadow: 0 2px 5px #777;
+}
+
+
+.secFive {
+    width: 100%;
+    height: 804px;
+    position: relative;
+    margin-top: 99px;
+    padding: 0 100px;
+}
+
+.secFive section {
+    width: 1166px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.secFive section .top {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secFive section .top .owner {
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.secFive section .top .ownpar {
+    font-size: 14px;
+}
+
+.secFive section .bottom {
+    width: 100%;
+    height: 600px;
+}
+
+.secFive section .bottom .owner-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px 20px;
+}
+
+.secFive section .bottom .owner-container div {
+    width: 370px;
+    height: 280px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 20px #999;
+    cursor: pointer;
+}
+
+.secFive section .bottom .owner-container div:hover {
+    transform: translateY(-20px);
+}
+
+.secFive section .bottom .owner-container div article {
+    width: 280px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+.secSix {
+    width: 100%;
+    height: 535px;
+    margin-top: 99px;
+    background-size: inherit;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.secSix section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 560px;
+}
+
+.secSix section .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 33px;
+    height: 0px;
+
+}
+
+article .mid8 {
+    position: relative;
+    top: 250px;
+    left: 30px;
+
+}
+
+article .mid9 {
+    position: relative;
+    top: 250px;
+    right: 630px;
+
+}
+
+article .mid2 {
+    position: relative;
+    top: 150px;
+    left: 650px;
+
+}
+
+article .mid3 {
+    position: relative;
+    top: 300px;
+    left: 700px;
+
+}
+
+article .mid4 {
+    position: relative;
+    top: 450px;
+    left: 450px;
+
+}
+
+article .mid5 {
+    position: relative;
+    top: 450px;
+    right: 450px;
+
+}
+
+article .mid6 {
+    position: relative;
+    top: 300px;
+    right: 700px;
+
+}
+
+article .mid7 {
+    position: relative;
+    top: 130px;
+    right: 650px;
+
+}
+
+
+.secSix section .bottom {
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.secSix section .bottom p {
+    font-size: 19px;
+}
+
+.secSix section .bottom div i {
+    margin: 0 30px;
+}
+
+.secSeven {
+    width: 100%;
+    margin-top: 99px;
+    height: 780px;
+    display: flex;
+    justify-content: center;
+    background: url(imeges/s7.png), rgb(213, 242, 243);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+
+.secSeven section {
+    height: 670px;
+    width: 660px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.secSeven section .top {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.secSeven section .top h1 {
+    font-size: 29px;
+}
+
+.secSeven section .bottom {
+    width: 100%;
+    height: 570px;
+    position: relative;
+}
+
+.secSeven section .bottom form {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 7px #999;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.secSeven section .bottom form label {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.secSeven section .bottom form .one {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secSeven section .bottom form .one div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 270px;
+}
+
+.secSeven section .bottom form .one div input {
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #999;
+    background-color: transparent;
+    padding-left: 10px;
+    outline: none;
+}
+
+.secSeven section .bottom form .two {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.secSeven section .bottom form .two input {
+    height: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #999;
+    padding-left: 10px;
+}
+
+.secSeven section .bottom form .three {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.secSeven section .bottom form .three select {
+    height: 30px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #999;
+    padding-left: 10px;
+}
+
+.secSeven section .bottom form .four {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.secSeven section .bottom form .four textarea {
+    height: 120px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #999;
+    padding-left: 10px;
+}
+
+.secSeven section .bottom form .five {
+    width: 122px;
+    height: 44px;
+    position: relative;
+}
+
+.secSeven section .bottom form .five input {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 44px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #6362D7, #FF8FE2);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.modal-content {
+    position: fixed;
+    bottom: 0;
+    background-color: #fefefe;
+    width: 100%;
+
+}
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: rgb(252, 135, 135);
+    color: white;
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+article .photo-position {
+    position: relative;
+}
+
+article .photo-position>.man {
+    position: absolute;
+    left: -140px;
+    top: -10px;
+    z-index: 0;
+}
+
+article .photo-position>.man2 {
+    position: absolute;
+    left: 100px;
+    top: -10px;
+}
+
+article .photo-position>.man1 {
+    position: absolute;
+    left: 120px;
+    top: 114px;
+}
+
+article .photo-position>.man3 {
+    position: absolute;
+    left: -50px;
+    top: 130px;
+}
+
+article .photo-position>.man22 {
+    position: absolute;
+    right: 620px;
+    top: 115px;
+}
+
+
+.f1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.flex {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer>div {
+    color: white;
+    width: 22%;
+    font-size: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.lasim {
+    position: relative;
+    top: 13px;
+    right: 10px;
+}
+
+.lasim2 {
+    position: relative;
+    top: 8px;
+    right: 37px;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.dn,
+.faly {
+    line-height: 50px;
+}
+
+footer>a:link {
+    text-decoration: none;
+    color: rgb(10, 6, 6);
+}
+
+.fiii {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.face {
+    width: 50px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #6362D7, #ec77cd);
+}
+
+.imf1 {
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #0cb653, #64f0a3);
+    padding: 4%;
+}
+
+.inn {
+    width: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #f040c4, #ec77cd);
+    padding: 4%;
+
+}
+
+.imf2 {
+    width: 50px;
+    padding: 4%;
+    text-align: center;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #f3cd24, #e0b909);
+}
+
+.fulimg {
+    width: 100%;
+    height: auto;
+    background-image: url("imeges/foot.png");
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0%;
+}
+
+.fulimg u {
+    position: relative;
+    top: 120px;
+}
+
+
+.fulimg img {
+    width: 20%;
+    position: relative;
+    bottom: 0%;
+}
